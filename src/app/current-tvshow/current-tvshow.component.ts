@@ -7,8 +7,14 @@ import {ICurrentTvshow} from '../icurrent-tvshow';
   styleUrls: ['./current-tvshow.component.css']
 })
 export class CurrentTvshowComponent implements OnInit {
-
-  constructor() { }
+current: ICurrentTvshow
+  constructor() { 
+    this.current = {
+      show: 'elenshow',
+      schedule: 'currnttime',
+      image: ''
+    }
+  }
 
   ngOnInit() {
   }

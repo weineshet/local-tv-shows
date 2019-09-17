@@ -1,5 +1,5 @@
 export interface ICurrentTvshow {
   show: string
-  schdule: string
+  schedule: string
   image: string
 }
